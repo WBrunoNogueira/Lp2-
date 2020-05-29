@@ -39,13 +39,13 @@ public class Program {
 		
 		Pedido pedido = new Pedido(new Date(),client); //instancia a objeto da classe Pedido
 		
-		System.out.print("Quantos itens ser√£o pedidos? ");
+		System.out.print("Quantos itens ser„o pedidos? ");
 		int n = sc.nextInt();
 		for (int i=1; i<=n; i++) {
 			
 			System.out.println();
 			System.out.println("*---------------------------*");
-			System.out.println();
+		
 			
 			System.out.println("Entre com o pedido  #" + i);
 			System.out.print("Nome do Produto: ");
@@ -53,7 +53,7 @@ public class Program {
 			String productNome = sc.nextLine();
 			System.out.print("Quantidade: ");
 			int quantidade = sc.nextInt();
-			System.out.print("Pre√ßo: ");
+			System.out.print("PreÁo: ");
 			double productPreco = sc.nextDouble();
 			System.out.println("Produto importado (taxado 20%) / usado (desconto de 10%)");
 			System.out.println("Digite i / u");

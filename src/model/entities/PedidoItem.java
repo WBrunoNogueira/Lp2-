@@ -55,7 +55,7 @@ public class PedidoItem {
 
 
 	public double subTotal() {
-		return preco * quantidade;
+		return product.tagPreco() * quantidade;
 	}
 	
 	@Override

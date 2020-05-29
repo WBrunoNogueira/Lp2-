@@ -10,7 +10,7 @@ public  class UsadoProduto  extends Product{
 	@Override
 	public double tagPreco() {
 
-		return (getPreco() * 0.10) - getPreco() ; // se produto for usado desconto 10% segundo a regra de negócio
+		return getPreco()- (getPreco() * 0.10)  ; // se produto for usado desconto 10% segundo a regra de negocio
 	}
 	
 
